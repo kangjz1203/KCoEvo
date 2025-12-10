@@ -44,14 +44,17 @@ Example gains (KG-enhanced vs. base models):
 ---
 
 ## 4. Repository Layout
-KCoEvo/
-├── src/                 # Core modules (graph builder, planner, reasoner)
-├── data/                # Processed datasets and API diffs
-├── configs/             # Model and dataset configs
-├── results/             # Evaluation outputs
+KCoEvo/              # Processed datasets and API diffs
+├── kg_construction/             # Scripts for KG construction
+├── scripts/             # Scripts for inferenece
 └── README.md
 
-## 5. Citation
+## 5. Data
+Knowledge graphs are constructed for popular libraries (e.g., TensorFlow, PyTorch) and stored in here. 
+Google Drive:
+https://drive.google.com/file/d/1cmKuFmUhXz4xq2ZostgBoFcYgBDfvQXu/view?usp=sharing
+
+## 6. Citation
 
 <!-- If you find this work helpful, please cite:
 
